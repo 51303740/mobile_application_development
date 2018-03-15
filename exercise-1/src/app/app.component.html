@@ -1,0 +1,25 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align: center">
+  <div style="padding: 5px">
+      <label>Lat: </label>
+      <input type="text" [(ngModel)]="lat"><br>
+  </div>
+  <div style="padding: 5px">
+      <label>Lng: </label>
+      <input type="text" [(ngModel)]="lng"><br>
+  </div>
+  <button (click)="onClick()">Tìm kiếm</button>
+
+  <div style="font-style: oblique; padding-top: 40px" *ngIf="this.location != null">
+    <label style="font-weight: bold">Kết quả tìm kiếm: </label>
+    <p>{{this.location}}</p>
+    <!-- <label style="font-weight: bold">Các kết quả lân cận: </label>
+    <p *ngFor='let location of locations'>
+       {{location}}
+    </p> -->
+  </div>
+
+</div>
+
+
+
