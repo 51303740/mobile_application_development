@@ -5,7 +5,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "code": "ng serve --ssl 1 --ssl-key \"E:\\HK172\\mobila-application-development\\exercise1\\node_modules\\browser-sync\\certs\\server.key\" --ssl-cert \"E:\\HK172\\mobila-application-development\\exercise1\\node_modules\\browser-sync\\certs\\server.crt\"",
+    "code": "ng serve --ssl 1 --ssl-key \"E:\\HK172\\mmobile-exercise\\mobile-application-development\\exercise1\\node_modules\\browser-sync\\certs\\server.key\" --ssl-cert \"E:\\HK172\\mobile-exercise\\mobila-application-development\\exercise1\\node_modules\\browser-sync\\certs\\server.crt\"",
     "build": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
