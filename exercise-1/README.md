@@ -4,7 +4,10 @@ This project was generated with Angular 2 and Nodejs.
 
 
 
-Path 1 of project using https protocol in Angular 2 to GET data about location with lat,lng input.
+Path 1 of project using http protocol in Angular 2 to GET data about location with lat,lng input.
+
+
+Using browser-sync library to create https:// host, to GET data https:// from Google Maps API
 
 
 Path 2 using Nodejs to create service, get request from Angular 2, processing and return goal data.
