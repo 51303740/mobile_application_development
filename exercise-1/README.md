@@ -44,3 +44,15 @@ Run `npm run code` to running the project.
 
 
 Open your browser and enter 'https://localhost:4200' to access application.
+
+NOTE: Sometime, we have bug 'WDS Disconnected!' when running Angular project, because of running in https://localhost:4200 in palce of http://locahost:4200
+
+
+
+
+But after a few time loading, it is OK !!
+
+
+
+I am try to fix it, but don't find !!
+
