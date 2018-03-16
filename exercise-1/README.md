@@ -1,27 +1,22 @@
 # Exercise1
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.3.
+This project was generated with Angular 2 and Nodejs
+Path 1 of project using https protocol in Angular 2 to GET data about location with lat,lng input.
+Path 2 using Nodejs to create service, get request from Angular 2, processing and return goal data.
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Build Angular 2
 
-## Code scaffolding
+Please OPEN filr package.json, path: exercise-1/package.json, finding script cofig and edit line from:
+"code": "ng serve --ssl 1 --ssl-key \"E:\\HK172\\mmobile-exercise\\mobile-application-development\\exercise1\\node_modules\\browser-sync\\certs\\server.key\" --ssl-cert \"E:\\HK172\\mobile-exercise\\mobila-application-development\\exercise1\\node_modules\\browser-sync\\certs\\server.crt\""
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+to
 
-## Build
+"code": "ng serve --ssl 1 --ssl-key location-save-your-repo\\mobile-application-development\\exercise1\\node_modules\\browser-sync\\certs\\server.key\" --ssl-cert location-save-your-repo\\mobile-application-development\\exercise1\\node_modules\\browser-sync\\certs\\server.crt\""
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+note: mobile-application-development is name of repo.
 
-## Running unit tests
+Run `npm run code` to running the project.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Open your browser and enter 'https://localhost:4200' to access application.
