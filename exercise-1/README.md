@@ -16,11 +16,19 @@ Path 2 using Nodejs to create service, get request from Angular 2, processing an
 
 ## Build Angular 2
 
+Set up node_modules:
+
+
+
+Run 'npm install'
+
+
+
 Please OPEN filr package.json, path: exercise-1/package.json, finding script cofig and edit line from:
 
 
 
-"code": "ng serve --ssl 1 --ssl-key \"E:\\HK172\\mmobile-exercise\\mobile-application-development\\exercise1\\node_modules\\browser-sync\\certs\\server.key\" --ssl-cert \"E:\\HK172\\mobile-exercise\\mobila-application-development\\exercise1\\node_modules\\browser-sync\\certs\\server.crt\""
+"code": "ng serve --ssl 1 --ssl-key \"E:\\HK172\\mmobile-exercise\\mobile-application-development\\exercise1\\node_modules\\browser-sync\\certs\\server.key\" --ssl-cert \"E:\\HK172\\mobile-exercise\\mobile-application-development\\exercise1\\node_modules\\browser-sync\\certs\\server.crt\""
 
 to
 

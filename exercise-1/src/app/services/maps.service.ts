@@ -22,6 +22,7 @@ export class MapsService {
                 .map((data: Response) => {
                   let respones = data.json();
                   return respones;
-                });
+                },
+              );
     }
 }
