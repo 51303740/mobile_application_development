@@ -1,6 +1,9 @@
 This project was bootstrapped with [Create React Native App](https://github.com/react-community/create-react-native-app).
 
-Below you'll find information about performing common tasks. The most recent version of this guide is available [here](https://github.com/react-community/create-react-native-app/blob/master/react-native-scripts/template/README.md).
+## Infomation
+  * [Name: Chau Ngoc Thach]
+  * [ID: 51303740]
+  * [Currency Converter API:](#https://txf-ecb.glitch.me/rates)
 
 ## Table of Contents
 
