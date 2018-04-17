@@ -3,7 +3,18 @@ This project was bootstrapped with [Create React Native App](https://github.com/
 ## Infomation
   * [Name: Chau Ngoc Thach]
   * [ID: 51303740]
-  * [Currency Converter API:](#https://txf-ecb.glitch.me/rates)
+  * [Currency Converter API:]  https://txf-ecb.glitch.me/rates
+
+  * Structure:
+    * App
+      * Components
+        * Converter.js  // Processing convert currency
+        * ConverterPicker.js // Choosing currency
+        * History.js  // Saving log
+      * Support
+        * Storage.js  // Helping config log convertion
+      * index.js  // getting data from API: https://txf-ecb.glitch.me/rates and process features
+    * App.js  // Running project
 
 ## Table of Contents
 
